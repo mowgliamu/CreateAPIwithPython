@@ -1,6 +1,6 @@
 # Create API with Python
 
-A simple RESTful API for books database written in Flask framework using SQLAlchemy (ORM) and Marshmallow (Serialization/Deserialization).
+RESTful API for books database written in Flask framework using SQLAlchemy (ORM) and Marshmallow (Serialization/Deserialization).
 
 ## Pull Docker image from Google cloud
 `docker pull gcr.io/bookapi-297922/bookapiimage:latest`
