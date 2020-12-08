@@ -4,8 +4,13 @@ A simple RESTful API for books database in Flask using SQLAlchemy and Marshmallo
 ## Pull Docker image from Google cloud
 `docker pull gcr.io/bookapi-297922/bookapiimage:latest`
 
+Check that you have the image by doing
+`docker images`
+
 ## Start the API by running the server in background
 `docker run -it -d -p 8080:8080 docker.io/library/bookapi`
+
+By doing `docker ps -a` you can check the status of the app. It will also provide you the container id and the port address on which the app is running. 
 
 ## Test Run
 `python3 create_post_request.py [URL] [CSVDATA]`
