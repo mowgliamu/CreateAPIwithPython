@@ -1,0 +1,7 @@
+# Example 1: POST
+=================
+
+[{"title": "Book 3", "author": "Murakami", "publisher": "Penguin Classics", "published_year": "1999"},
+ {"title": "Book 3", "author": "Murakami", "publisher": "Penguin Classics", "published_year": "1999"}]
+
+RSHould returns status 200 OK.
