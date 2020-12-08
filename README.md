@@ -15,10 +15,11 @@ You can check that the image has been created successfully by running:
 With `docker ps -a` you can check the container id and the port address on which the app is running. 
 
 ## Test Run
+A tiny book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
+
 `python3 create_post_request.py [URL] [CSVDATA]`
 
-Where URL is the server address (default is for GC app engine) running and CSVDATA is csvfile containing test data. A `mock.csv` is provided for test run.
-An output file named `summary.txt` will be created describing the results, in addition there will also be a `tmp.log`.
+Where URL is the server address (http://0.0.0.0:8080) and CSVDATA is csvfile containing test data (`mock.csv` if not provided). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries. If you have a sqlite3 database file, it can be converted to csv format by a utility script provided in [https://github.com/mowgliamu/convert-db-to-csv]  
 
 ## Tests with Postman
 Individual tests can also be performed with Postman (highly recommended). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors (or other errors). 
