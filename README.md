@@ -12,7 +12,7 @@ You can check that the image has been created successfully by running:
 ## Start the API by running the server in background
 `docker run -it -d -p 8080:8080 docker.io/library/bookapi`
 
-With `docker ps -a` you can check the status of the app. It will also provide you the container id and the port address on which the app is running. 
+With `docker ps -a` you can check the container id and the port address on which the app is running. 
 
 ## Test Run
 `python3 create_post_request.py [URL] [CSVDATA]`
