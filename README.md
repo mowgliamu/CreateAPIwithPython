@@ -20,6 +20,6 @@ By doing `docker ps -a` you can check the status of the app. It will also provid
 Where URL is the server address (default is for GC app engine) running and CSVDATA is csvfile containing test data. A `mock.csv` is provided for test run.
 An output file named `summary.txt` will be created describing the results, in addition there will also be a `tmp.log`.
 
-## Test with Postman
-Individual tests can also be performed with Postman (recommended) using either the GC server or locally (see below). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors.
+## Tests with Postman
+Individual tests can also be performed with Postman (highly recommended). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors (or other errors). 
 
