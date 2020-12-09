@@ -12,7 +12,7 @@ A tiny book database has been provided in `mock.csv`. To post the entries in the
 
 `python3 create_post_request.py [URL] [CSVDATA]`
 
-Where URL is the server address (https://bookapi-297922.uc.r.appspot.com/books) and CSVDATA is csvfile containing test data (default `mock.csv`). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries.
+Where URL is the server address [default https://bookapi-297922.uc.r.appspot.com/books] and CSVDATA is csvfile containing test data (default `mock.csv`). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries.
 
 ## Tests with Postman
 Individual tests can also be performed with Postman (highly recommended). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors.
