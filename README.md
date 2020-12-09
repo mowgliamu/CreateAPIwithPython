@@ -2,24 +2,15 @@
 
 RESTful API for books database written in Flask framework using SQLAlchemy (ORM) and Marshmallow (Serialization/Deserialization).
 
-## Pull Docker image from Google cloud
-`docker pull gcr.io/bookapi-297922/bookapiimage:latest`
+## API Server 
+The API is up-and-running at [https://bookapi-297922.uc.r.appspot.com/books], which has been created using Google Cloud App Engine. 
 
-You can check that the image has been created successfully by running:
-
-`docker images`
-
-## Start the API by running the server in background
-`docker run -it -d -p 8080:8080 docker.io/library/bookapi`
-
-With `docker ps -a` you can check the container id and the port address on which the app is running. Make sure your environment is running Linux containers.
-
-## Test Run
+## Running the test with mock data
 A tiny book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
 
 `python3 create_post_request.py [URL] [CSVDATA]`
 
-Where URL is the server address (http://0.0.0.0:8080) and CSVDATA is csvfile containing test data (`mock.csv` if not provided). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries.
+Where URL is the server address (https://bookapi-297922.uc.r.appspot.com/books) and CSVDATA is csvfile containing test data (default `mock.csv`). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries.
 
 ## Tests with Postman
 Individual tests can also be performed with Postman (highly recommended). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors.
