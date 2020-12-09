@@ -6,7 +6,7 @@ RESTful API for books database written in Flask framework using SQLAlchemy (ORM)
 The API is up-and-running at [https://bookapi-297922.uc.r.appspot.com/books], which has been created using Google Cloud App Engine. All the source and configuration files are located in `src/`.
 
 ## Running the test with mock data
-Clone/download the `example`. A small book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
+Clone/download the `example` directory. A small book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
 
 `pip3 install -r requirements.txt`
 
