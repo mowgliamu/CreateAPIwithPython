@@ -28,8 +28,8 @@ Individual tests can also be performed with Postman (highly recommended). Exampl
 If you would like to run the API in development mode on your local machine, it can be done as follows:
 
 - Clone the repo
-- Change port from 8080 to 5000 in `app.py`
 - Install dependencies: `pip3 install -r requirements.txt`
+- Create a file named `.flaskenv` and add `FLASK_ENV=development` in it
 - Start the server: `flask run`
 - Run the test: `python3 create_post_request.py [URL] [CSVDATA]`
 - Or play with Postman!

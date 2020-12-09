@@ -16,7 +16,7 @@ import requests
 
 from utils import make_json
 
-URL = sys.argv[1] if len(sys.argv) > 1 else "https://bookapi-297922.uc.r.appspot.com/books"
+URL = sys.argv[1] if len(sys.argv) > 1 else "https://0.0.0.0:8080/books"
 CSVDATA = sys.argv[2] if len(sys.argv) > 2 else "./mock.csv"
 
 # Create a log
