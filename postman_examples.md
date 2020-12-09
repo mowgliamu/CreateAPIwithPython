@@ -61,7 +61,7 @@ Once again, this request results in an error. Our API doesn't like it when we le
 
 Let's try to add the last book now
 
-`[{"title": "Unfinished", "author": "Prateek Goel", "publisher": "", "published_year": "2030"}]`
+`[{"title": "Unfinished", "author": "Prateek Goel", "publisher": "Who Knows", "published_year": "2030"}]`
 
 Make a POST request. We get an output like this:
 
