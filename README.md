@@ -24,3 +24,14 @@ Where URL is the server address (http://0.0.0.0:8080) and CSVDATA is csvfile con
 ## Tests with Postman
 Individual tests can also be performed with Postman (highly recommended). Examples from `mock.csv` are provided in `postman_examples.txt`. These examples will demonstrate the functionality of the API including failure scenarios based on schema validation errors (or other errors). 
 
+## Development Run
+If you would like to run the API in development mode on your local machine, it can be done as follows:
+
+- Clone the repo
+- Change port from 8080 to 5000 in app.py
+- Install dependencies: `pip3 install -r requirements.txt`
+- Start the server: `flask run`
+- Run the test: `python3 create_post_request.py [URL] [CSVDATA]`
+- Or play with Postman!
+
+In the development mode, you can explicitly see how the sqlite database file `catalogue.db` is getting update after each HTTP request. 
