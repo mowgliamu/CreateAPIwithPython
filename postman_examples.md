@@ -6,6 +6,7 @@ Let's try to add the first two books from our mock data. Copy-paste the followin
 [{"title": "Animal Farm", "author": "George Orwell", "publisher": "Signet", "published_year": "1996"},
  {"title": "Physics & Philosophy", "author": "Werner Hesinberg", "publisher": "Penguin", "published_year": "2007"}]
 `
+
 Make a POST request on the API server. (Make sure you have input data format selected as raw/JSON in the Body, you can also select Beautify to make it look pretty)
 
 Since our data conforms to type and there are no missing values in any field, this results in success. We can verify this by making GET request as /books/id (id = 1, 2). You can also explicitly check these entries have appeared into the database file.
@@ -31,7 +32,7 @@ Make a POST request. We get an output like this:
 }
 `
 
-The POST request results in failure. This is because in the published_year field, we have XYZ, which is not a valid year.
+The POST request results in failure. This is because in the `published_year` field, we have XYZ, which is not a valid year.
 
 # Example 3: POST request 
 
