@@ -29,3 +29,8 @@ In the `/src` directory:
 - Or play with Postman!
 
 In the development mode, you can explicitly see how the sqlite database file `catalogue.db` is getting updated after each HTTP request. 
+
+## Docker pull
+If for some reason you would like to work with the docker image, you can pull it using:
+
+`docker pull gcr.io/bookapi-297922/bookapiimage:latest`
