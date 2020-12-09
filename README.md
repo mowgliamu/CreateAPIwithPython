@@ -34,4 +34,4 @@ If you would like to run the API in development mode on your local machine, it c
 - Run the test: `python3 create_post_request.py [URL] [CSVDATA]`
 - Or play with Postman!
 
-In the development mode, you can explicitly see how the sqlite database file `catalogue.db` is getting update after each HTTP request. 
+In the development mode, you can explicitly see how the sqlite database file `catalogue.db` is getting updated after each HTTP request. 
