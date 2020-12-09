@@ -8,6 +8,7 @@ The API is up-and-running at [https://bookapi-297922.uc.r.appspot.com/books], wh
 ## Running the test with mock data
 A tiny book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
 
+`pip3 install requests`
 `python3 create_post_request.py [URL] [CSVDATA]`
 
 Where URL is the server address (https://bookapi-297922.uc.r.appspot.com/books) and CSVDATA is csvfile containing test data (default `mock.csv`). An output file named `summary.txt` will be created describing the results, indicating the successful and failed entries.
