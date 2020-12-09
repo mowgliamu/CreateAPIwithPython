@@ -12,7 +12,7 @@ You can check that the image has been created successfully by running:
 ## Start the API by running the server in background
 `docker run -it -d -p 8080:8080 docker.io/library/bookapi`
 
-With `docker ps -a` you can check the container id and the port address on which the app is running. 
+With `docker ps -a` you can check the container id and the port address on which the app is running. Make sure your environment is running Linux containers.
 
 ## Test Run
 A tiny book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
