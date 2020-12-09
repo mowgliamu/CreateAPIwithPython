@@ -3,7 +3,7 @@
 RESTful API for books database written in Flask framework using SQLAlchemy (ORM) and Marshmallow (Serialization/Deserialization).
 
 ## API Server 
-The API is up-and-running at [https://bookapi-297922.uc.r.appspot.com/books], which has been created using Google Cloud App Engine. All the source and coniguration files are located in `src/`.
+The API is up-and-running at [https://bookapi-297922.uc.r.appspot.com/books], which has been created using Google Cloud App Engine. All the source and configuration files are located in `src/`.
 
 ## Running the test with mock data
 Clone/download the `example`. A small book database has been provided in `mock.csv`. To post the entries in the database using the API, run the following:
@@ -21,9 +21,9 @@ Individual tests can also be performed with Postman (highly recommended). Exampl
 If you would like to run the API in development mode on your local machine, it can be done as follows:
 
 - Clone/download the repo
-In the `/src` directory:
-	- Install dependencies (run in `src/`): `pip3 install -r requirements.txt`
-	- Create a file named `.flaskenv` and add `FLASK_ENV=development` in `src/`
+In the `src/` directory:
+	- Install dependencies: `pip3 install -r requirements.txt`
+	- Create a file named `.flaskenv` and add `FLASK_ENV=development`
 	- Start the server: `flask run`
 - In `example`, run the test: `python3 create_post_request.py [URL] [CSVDATA]` (Change URL to your local port address now)
 - Or play with Postman!
