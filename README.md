@@ -21,7 +21,7 @@ Individual tests can also be performed with Postman (highly recommended). Exampl
 If you would like to run the API in development mode on your local machine, it can be done as follows:
 
 - Clone/download the repo
-In the `src/` directory:
+- In the `src/` directory:
 	- Install dependencies: `pip3 install -r requirements.txt`
 	- Create a file named `.flaskenv` and add `FLASK_ENV=development`
 	- Start the server: `flask run`
