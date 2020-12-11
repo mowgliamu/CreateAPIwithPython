@@ -1,6 +1,6 @@
 # Example 1: POST request
 
-Let's try to add the first two books from our mock data. Copy-paste the following data it into Postman workspace for making requests.
+Let's try to add the first two books from our mock data. Copy-paste the following data into Postman workspace for making requests.
 
 `
 [{"title": "Animal Farm", "author": "George Orwell", "publisher": "Signet", "published_year": "1996"},
